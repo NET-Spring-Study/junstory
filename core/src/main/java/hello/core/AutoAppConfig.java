@@ -15,8 +15,8 @@ import org.springframework.context.annotation.FilterType;
 public class AutoAppConfig {
 
     //자동 빈 등록 vs 수동 빈 등록
-    @Bean(name = "memoryMemberRepository")
-    MemberRepository memberRepository() {
-        return new MemoryMemberRepository();
-    }
+//    @Bean(name = "memoryMemberRepository")
+//    MemberRepository memberRepository() {
+//        return new MemoryMemberRepository();
+//    }
 }
